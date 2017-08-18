@@ -9,25 +9,6 @@ var memes = [
 	'Dude, you were cutting all my pinapples yelling "SPONGEBOB! I KNOW YOU\'RE THERE!"',
 ];
 
-var random = document.querySelector('#random');
-
-random.innerHTML = memes[Math.floor(Math.random() * memes.length)];
-
-/* Time */
-
-var deviceTime = document.querySelector('.status-bar .time');
-var messageTime = document.querySelectorAll('.message .time');
-
-deviceTime.innerHTML = moment().format('h:mm');
-
-setInterval(function() {
-	deviceTime.innerHTML = moment().format('h:mm');
-}, 1000);
-
-for (var i = 0; i < messageTime.length; i++) {
-	messageTime[i].innerHTML = moment().format('h:mm A');
-}
-
 /* Message */
 
 var form = document.querySelector('.conversation-compose');
