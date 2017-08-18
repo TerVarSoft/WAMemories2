@@ -1,5 +1,5 @@
 var messages = [
-/*    { content: "Hola...", type: "info" },
+    { content: "Hola...", type: "info" },
     { content: "Que tal?", type: "info" },
     { content: "Nooo no soy un boot...", type: "info" },
     { content: "Soy el mirko trantando de recordar un poco :D", type: "info" },
@@ -261,7 +261,7 @@ var messages = [
     { content: "O tienes algun monto de ropa debajo del cual puedo ocultarme?", type: "sent", time:"11:14" },
     { content: "Pero sii bajo la cama lo logras", type: "received", time:"11:15" },
     { content: "La sillaaaaa Magica Puede tener un monton de ropa y nada se caera", type: "received", time:"11:15" },
-    { content: "Jajajaja", type: "sent", time:"11:16" },*/
+    { content: "Jajajaja", type: "sent", time:"11:16" },
     { content: "Si voy... yo creo que en vez de dormir.. Me pondria a doblar tu ropa laugh", type: "sent", time:"11:16", hasEmoji:true },
     { content: "Yeiiiii heartEyes No te dejariaaa", type: "received", time:"11:16", hasEmoji:true },    
     { content: "Estarias ahi a mi lado nada mas jejeje", type: "received", time:"11:17" },
