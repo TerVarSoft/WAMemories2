@@ -59,6 +59,7 @@ var messages = [
     { content: "Pero antes te escribo jejejee. kiss", type: "received", time: "19:24", hasEmoji:true },
     { content: "Geniaaaal", type: "sent", time: "19:50" },
     { content: "Yo meti 3 goles por ti :)", type: "sent", time: "19:50" },
+    { content: "Belleza! kiss", type: "received", time: "19:50", hasEmoji:true },
     { content: "Estas listo? shame", type: "received", time: "22:08", hasEmoji:true },
     { content: "Acabo de salir de la ducha :p", type: "sent", time: "22:08" },
     { content: "Me pongo guapo y voy :)", type: "sent", time: "22:08" },
@@ -75,5 +76,5 @@ var messages = [
     { content: "XD", type: "sent", time: "3:31" },
     { content: "Lindaaa", type: "sent", time: "3:31" },
     { content: "kiss Eres mi algoritmo jejeje", type: "received", time: "3:32", hasEmoji:true },
-    { content: "Awww No podia no meter esa parte :P", type: "received", time: "3:32", hasEmoji:true },
+    { content: "Awww No podia no meter esa parte :P", type: "info" },
 ]
