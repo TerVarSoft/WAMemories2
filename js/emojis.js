@@ -9,5 +9,8 @@ var emojis = [
     {code:'zzz',class:'zzz'},
     {code:'shame',class:'shame'},
     {code:'laugh',class:'laugh'},
-    {code:'kiss',class:'kiss'},    
-];  
+    {code:'kiss',class:'kiss'},
+    {code: 'cuteSmile',class:'cuteSmile'},
+    {code: 'heartEyes',class:'heartEyes'},
+    {code: ':O',class:'surprise'},
+];

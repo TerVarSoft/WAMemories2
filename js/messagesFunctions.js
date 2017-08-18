@@ -21,7 +21,7 @@ function addMessage() {
     }
     
     if(messages[messageIndex].image) {
-        var image = '<img src="' + messages[messageIndex].image + '" />'
+        var image = '<img src="' + messages[messageIndex].image + '" style="max-width:280px;" />'
         messageContent = image;
     }
 
