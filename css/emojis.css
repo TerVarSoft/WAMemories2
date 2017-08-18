@@ -1,0 +1,72 @@
+/** Emojis **/
+.emoji-info{  
+    display:inline-block;
+    vertical-align:middle;
+    width: 26px;
+    height: 26px;
+      /**background: url(https://s-media-cache-ak0.pinimg.com/236x/e9/b3/13/e9b313c5bad0465c6ee1cb51b06e9e2d.jpg); **/
+      background: url('./../img/emojis-info.png');
+
+  
+}
+
+.emoji-received{  
+    display:inline-block;
+    vertical-align:middle;
+    width: 26px;
+    height: 26px;      
+    background: url('./../img/emojis-received.png'); 
+}
+
+.emoji-sent{  
+    display:inline-block;
+    vertical-align:middle;
+    width: 26px;
+    height: 26px;      
+    background: url('./../img/emojis-sent.png'); 
+}
+
+.lengua{  
+  background-position: 0px 10px;
+}
+
+.XD{
+ 
+  background-position: -20px 170px;
+}
+
+.think {
+    background-position: -8px -70px;
+}
+
+.smile1 {
+    background-position: -146px -4px;
+}
+
+.wink {
+    background-position: -572px -4px;
+}
+
+.angel {
+    background-position: -676px -35px;
+}
+
+.hug {
+    background-position: -640px -35px;
+}
+
+.zzz {
+    background-position: -112px -102px;
+}
+
+.shame {
+    background-position: -181px -4px;
+}
+
+.laugh {
+    background-position: -215px -4px;
+}
+
+.kiss {
+    background-position: -76px -36px;
+}

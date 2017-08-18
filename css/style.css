@@ -261,6 +261,24 @@ body {
   margin: 16px 0 8px;
 }
 
+.message-info {
+  background: #c9ebf1;
+  border-radius: 0px 5px 5px 5px;
+  display: table;
+  /*float: left;
+  left:40%;**/
+  color: #8d8d8d;
+  clear: both;
+  line-height: 18px;
+  font-size: 15px;
+  padding: 8px;
+  position: relative;
+  margin: 8px 0;
+  max-width: 85%;
+  word-wrap: break-word;
+  z-index: -1;
+}
+
 .message.received {
   background: #fff;
   border-radius: 0px 5px 5px 5px;
