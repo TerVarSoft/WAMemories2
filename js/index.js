@@ -5,13 +5,16 @@ var conversation = document.querySelector('.conversation-container');
 
 form.addEventListener('submit', newMessage);
 
+
 var lastAnswer = "";
 var messageIndex = 0;
-var messagesTimer = setInterval(addMessage, messagesIntervalTimer);
 
-myAudio = new Audio('./sounds/reik.mp3'); 
-myAudio.addEventListener('ended', function() {
-    this.currentTime = 0;
-    this.play();
-}, false);
-myAudio.play();
+var messagesTimer;
+
+document.querySelector('audio').addEventListener("play", function() {
+     messagesTimer = setInterval(addMessage, messagesIntervalTimer);
+});
+
+document.querySelector('audio').addEventListener("pause", function() {
+    window.clearInterval(messagesTimer);
+});
